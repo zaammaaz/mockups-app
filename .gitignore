@@ -1,0 +1,23 @@
+dist/
+build/
+*.spec
+__pycache__/
+config.json
+
+# Bundled ffmpeg binary (downloaded at build time, ~150MB)
+tools/ffmpeg/
+
+# Throwaway spike prototypes + run artifacts
+spike/
+**/runs/
+
+# Runtime-generated gradient assets
+assets/generated/
+
+# Node (dev-time asset rasterization only)
+node_modules/
+package.json
+package-lock.json
+
+# Debug log (runtime)
+mockup-debug.log
